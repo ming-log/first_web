@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单的例子 - 注册</title>
+	</head>
+	<body>
+		<figure>
+			<img src="images/bird.gif" alt="">
+			<figcaption>图1. 鸟</figcaption>
+		</figure>
+		<form action="" method="post" enctype="multipart/form-data">    
+		<!--
+		action:服务器哪个程序使用这个请求，省略默认为本地服务器   
+		method:post/get
+		enctype:属性规定在发送到服务器之前应该如何对表单数据进行编码
+		-->
+			<p>
+				表单
+				<input type="text"  value="请填写表单" readonly=""/>
+				<!-- readonly:只读 -->
+			</p>
+		<fieldset>
+			<legend>基本信息</legend>  <!-- 组合表单中的相关元素 -->
+			<p>
+			用户名: 
+			<input type="text" name="username" id="111" placeholder="用户名由6-20个字符构成" required/>
+			<!-- 	type:输入框的类型
+					name:返回值名称
+					id:返回值编号
+					values:默认值 
+					required:必须填写的项   不写不能提交表单
+					placeholder:提示符  
+					size:长度
+					maxlength:限制最大字符数
+					readonly:只读-->
+			</p>
+			<p>
+				密码：
+				<input type="password" name="password" id="" value="" required/>
+			</p>
+			<p>
+				确认密码:
+				<input type="password" name="repassword" id="" value="" required/>
+			</p>
+		</fieldset>
+			<p>
+				性别:
+				<input type="radio" name="sex" value="1" checked/>男
+				<!-- type="radio":选择框（单选）    checked:默认选择男 -->
+				<input type="radio" name="sex" value="0" />女
+			</p>
+			<p>
+				爱好:
+				<input type="checkbox" name="fav" value="阅读" checked/>阅读
+				<!-- type="checkbox":选择框（勾选）    checked:默认选择阅读 -->
+				<input type="checkbox" name="fav" value="旅游"/>旅游
+				<input type="checkbox" name="fav" value="美食"/>美食
+				<input type="checkbox" name="fav" value="运动"/>运动
+			</p>
+			<p>
+				省份
+				<!-- select>option*5 -->
+				<select name="province">
+					<option value="1001">北京</option>
+					<option value="1002">天津</option>
+					<option value="1003">上海</option>
+					<option value="1004">四川</option>
+					<option value="1005" selected>湖北</option>
+				</select>
+				<!--select:下拉列表     selected:默认选择项 -->
+			</p>
+			<p>
+				生日:
+				<input type="date" name="birthday">
+			</p>
+			<p>
+				邮箱:
+				<input type="email" name="email" required>
+			</p>
+			<p>
+				自我介绍: <br>
+				<textarea name="introduction" id="" cols="30" rows="10"></textarea>
+			</p>
+			<p>
+				<!-- submit:提交按钮 -->
+				<input type="submit" value="确认注册">
+				<!-- reset:重置按钮 -->
+				<input type="reset" value="重新填写">
+			</p>
+		</form>
+	</body>
+</html>
