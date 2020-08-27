@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9817d71b-ae5c-4a1a-8b3b-d555b57bb16b" name="Default Changelist" comment="" />
+    <list default="true" id="9817d71b-ae5c-4a1a-8b3b-d555b57bb16b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gOZcMQ2oV46Y8khBaqlrc587iE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -26,6 +34,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597987679927</updated>
       <workItem from="1597987682210" duration="290000" />
+      <workItem from="1598432423884" duration="554000" />
+      <workItem from="1598494957412" duration="6000" />
     </task>
     <servers />
   </component>
@@ -33,9 +43,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598432960476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598432960476" />
+    <state x="555" y="261" key="Github.ShareDialog" timestamp="1598432724446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="555" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598432724446" />
+    <state x="0" y="0" key="Github.UntrackedFilesDialog" timestamp="1598432736339">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598432736339" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1598432880189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598432880189" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1597987929609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1597987929609" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598432772997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598432772997" />
   </component>
 </project>

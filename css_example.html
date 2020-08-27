@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>css</title>
+		<!-- 外部样式表 -->
+		<!-- 便于样式复用，减少带宽需求 -->
+		<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+		<!-- 内部样式表 -->
+		<!-- 加载快 -->
+		<!-- 一般情况下网站的首页会使用内部样式表 - 首页正常渲染 -->
+		<!-- 其他的页面可以共享一个或多个外部样式表 - 代码复用/减少对带宽和流量的需求 -->
+		<!-- 内、外样式表选择一个即可 -->
+		<style>
+		/* 通配选择器 */
+		* {
+			margin: 0;  /* 清除内边距 */
+			padding: 0; /* 清除外边距 */
+		}
+		/* 标签选择器 */
+		h1 {
+			width: 960px;
+			height: 40px;
+			margin: 0px auto; /* # 居中并且取消间距 */
+		}
+		/* 类选择器	 */
+		/* 所有属性相同的标签颜色都一样 */
+		.a {
+			background-color: aqua;
+		}
+		.b {
+			background-color:red
+		}
+		.c {
+			background-color: burlywood;
+		}
+		.d {
+			background-color: darkgrey;
+		}	
+		.e {
+			background-color: darkcyan;
+		}
+		.f {
+			background-color: green;
+		}
+		.g {
+			background-color: dodgerblue;
+		}
+		.h {
+			color: blue;		/* 文字颜色 */
+			text-align: center;  /* 文字居中 */
+			width:100px;       /* 宽度不够自动换行 */
+			height: 45px;    
+			overflow: scroll;  /* hidden:超出部分自动隐藏    scroll:超出部分滚动显示*/
+		}
+		.big {
+			font-size: 32px;
+		}
+		.normal {
+			18px
+		}
+		.small {
+			10px
+		}
+		/* id选择器  #+id  唯一标识符，只能一个用*/
+		/*   相同渲染效果用，隔开   */
+		#header, #footer {
+			width: 50rem;
+			height: 7.5rem;
+			border: 0.125rem solid red;  /* 区域 */
+			margin: 0 auto;
+			text-align: center;
+		}
+		/* 不冲突的样式会叠加,有冲突的样式遵循三条原则 */
+/* 		1.就近原则:同一类选择器,离的近的优先渲染
+		2.具体性原则:id选择器>类选择器>标签选择器
+		3.重要性原则:加 !important 参数优先 */
+	</style>
+	</head>
+	<body>
+		<!-- 内嵌样式表 / 行内样式表  style关键字 -->
+		<div id="header" style="background-color: red;">CSS learn</div>
+		<!-- 颜色表示法:
+		1. 英文单词   
+		2. rgb(),rgba()函数    
+		3. # + 16进制 
+		4. 灰度,色度，亮度 表示法 hsl()-->
+
+		<h1 class="a"></h1>
+		<h1 class="b"></h1>
+		<h1 class="c"></h1>
+		<h1 class="d"></h1>
+		<h1 class="e"></h1>
+		<h1 class="f"></h1>
+		<h1 class="g"></h1>
+		<!-- 既属于a类又属于h类，会同时拥有两者的效果，如果存在相同的优先使用后者 -->
+		<p class="c h big">静夜思 李白</p>
+		<div id="footer">页脚</div>
+	</body>
+</html>
