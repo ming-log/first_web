@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9817d71b-ae5c-4a1a-8b3b-d555b57bb16b" name="Default Changelist" comment="css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9817d71b-ae5c-4a1a-8b3b-d555b57bb16b" name="Default Changelist" comment="css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web 标签" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +60,7 @@
       <workItem from="1598494957412" duration="6000" />
       <workItem from="1598505540816" duration="3943000" />
       <workItem from="1598521208854" duration="119000" />
+      <workItem from="1598597555184" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1598505583438</created>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598521236589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="css">
+      <created>1598597587338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598597587338</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +121,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598432960476" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598597629132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598597629132" />
     <state x="555" y="261" key="Github.ShareDialog" timestamp="1598432724446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -131,9 +141,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1597987929609" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598521316736">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598597590875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598521316736" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598597590875" />
   </component>
 </project>

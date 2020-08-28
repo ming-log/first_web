@@ -4,6 +4,17 @@
 		<meta charset="utf-8">
 		<title></title>
 	</head>
+	<style type="text/css">
+		table {
+			border-collapse: collapse;
+		}
+		td, th{
+			border: 1px solid black;
+		}
+		.a {
+			text-align: center;
+		}
+	</style>
 	<body>
 <!-- 
 form 表单
@@ -11,7 +22,7 @@ input 表单控件
 audio 音频
 video 视频
 -->
-		<table border="1">
+		<table>
 			<caption>学生考试成绩</caption>
 			<thead><!-- 表头 -->
 				<tr>
@@ -28,9 +39,8 @@ video 视频
 					<td>92</td>
 				</tr>
 				<tr>
-					<td rowspan="2">李二狗</td>  	<!-- rowspan="2" 跨2行 -->
-					<td colspan="3">98</td>			<!-- colspan="3" 跨3列 -->
-					<td>100</td>
+					<td>李二狗</td>  	<!-- rowspan="2" 跨2行 -->
+					<td class='a'>98</td>			<!-- colspan="3" 跨3列 -->
 				</tr>
 				<tr>
 					<td>陆地</td>
