@@ -3,6 +3,34 @@
 	<head>
 		<meta charset="utf-8">
 		<title>表单的例子 - 注册</title>
+		<style>   
+			/* 属性选择器 */
+			/* form input  后代选择器   form>input 儿子选择器*/
+			/* 只有form标签下的input标签（可以隔代）才会被渲染 */
+			form input[type=text], form input[type=password]{
+				border: none;       /* 去掉边框   边框:实际看得到的*/
+				outline: none;    /* 去掉轮廓,轮廓:鼠标点上去才会出现 */
+				border-bottom:1px dotted darkgray;    /* 加下划线 */
+			}
+			/* form+input 相邻兄弟选择器     form~input兄弟选择器*/
+			form~input[type=text]{
+				outline:none;
+				border:1px solid lightgray;
+			}
+			/* 加上:focus表示鼠标点上去怎么渲染 */
+			form~input[type=text]:focus{
+				outline:none;
+				border:1px solid #0000FF;
+			}
+			.button{
+				display: inline-block;    /* 行级元素在改变宽高时最好先变为内连块级元素 */
+				width: 120px;
+				height: 40px;
+				color:white;
+				background-color: red;
+				border: none;    /* 去掉边框,点击无凹凸感 */
+			}
+		</style>
 	</head>
 	<body>
 		<figure>
@@ -74,20 +102,29 @@
 				生日:
 				<input type="date" name="birthday">
 			</p>
-			<p>
-				邮箱:
-				<input type="email" name="email" required>
-			</p>
-			<p>
-				自我介绍: <br>
-				<textarea name="introduction" id="" cols="30" rows="10"></textarea>
-			</p>
+			<fieldset>
+				<legend>额外信息</legend>
+				<p>
+					邮箱:
+					<input type="email" name="email" required>
+				</p>
+				<p>
+					头像
+					<input type="file" name="headphoto" id="">
+				</p>
+				<p>
+					自我介绍: <br>
+					<textarea name="introduction" id="" cols="30" rows="10"></textarea>
+				</p>
+			</fieldset>
 			<p>
 				<!-- submit:提交按钮 -->
-				<input type="submit" value="确认注册">
+				<input class='button' type="submit" value="确认注册">
 				<!-- reset:重置按钮 -->
-				<input type="reset" value="重新填写">
+				<input class='button' type="reset" value="重新填写">
 			</p>
 		</form>
+			文本:
+			<input type="text">
 	</body>
 </html>

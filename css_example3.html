@@ -3,29 +3,101 @@
 	<head>
 		<meta charset="utf-8">
 		<style type="text/css">
+			/* 自定义字体 */
+			@font-face {
+				font-family:"fatdog";   /* 字体名 */
+				src: url('fonts/chunkfive.ttf');   /* 字体网址 / 路径 */
+			}
 			.ms {
 				letter-spacing: 10px; /* 字符间距 */
-				width: 320px;    /* 盒子的宽度 */
-				height: 60px;	 /* 盒子的高度 */
+				width: 100x;    /* 盒子的宽度 */
+				height: 100px;	 /* 盒子的高度 */
 				border: 5px dotted gray; /* 盒子的边界 */  
-				line-height:60px;   /* 行高 */
 				text-align: center; /* 文字对齐方式 */
-				margin: 10px auto;     /* 外边距 */
-				text-decoration: underline;   /* 文字的装饰 */
-				text-shadow: 2px 2px gray; /* 文字阴影 */
+				margin: 30px auto;     /* 外边距 */
+				text-decoration: ;   /* 文字的装饰 */
+				text-shadow: 2px 2px 2px gray; /* 文字阴影 */
+				font-family: "fatdog";  /*字体*/
+				font-size: 200%;   /* 字号 */
+				font-weight: bolder;  /* 字体粗细 */
+				font-style: oblique;   /* 字体样式  斜体？ */
+				font-stretch:  condensed;   /* 字体是否要拉伸 */
+				line-height:100px;   /* 行高 */
+				font:oblique bolder 200%/100px "fatdog"  /* 合并 */
+				/* font 简写属性在一个声明中设置所有字体属性 */
+				/* 可设置的属性是（按顺序）： */
+				/* "font-style font-variant font-weight font-size/line-height font-family" */
+			}
+			/* 盒子模型 */
+			.box {
+				/* display: none;   控制盒子显示还是隐藏，不占位置*/   
+				/* none:不显示 */
+				/* block:显示,块级元素（独占整行），默认值 */
+				/* inline-block:显示,内连块级元素,没有换行 */
+				visibility: hidden;   /* 隐藏盒子但还是占着盒子的位置，显示空白 */
+				color: rgb(64, 128, 192);
+				height: 220px; /* 高度 */  
+				border: 40px double #00CC33;    /* 边界双线 */
+				border-left-color: blue;     /* 左边线颜色 */
+				border-right-color: red;     /* 右边线颜色 */
+				border-radius: 10px 20px 40px 80px;   /* 边界圆角半径 */
+				width: 50%;     /* 宽度 */
+				margin: 50px auto;     /* 边距 */
+				margin-top: 50px;    /* 上边距 */
+				text-align: center;      /* 文本对齐格式 */
+				background-color: #749ABE;      /* 背景色 */
+				background-image: url(images/bird.gif);   /* 背景图片 */
+				padding: 50px;  /* 内边距 */
 			}
 			.one {
-				text-indent: 60px ; /* 文字缩进 */
+				text-indent: 80px ; /* 文字缩进 */
 			}
 			.two {
-				text-indent: 40px; 
+				text-indent: 70px; 
 			}
+			.three {
+				text-indent: 60px; 
+			}
+			.four {
+				text-indent: 50px; 
+			}
+			.whiteground{
+				background-color: white;
+			}
+			#photo {
+				border: 10px solid gold;
+				border-radius: 60px 60px 60px 60px;
+			}
+			/* css抠图 */
+			#icon{
+				width: 100px;
+				height: 100px;
+				background: url(images/icons.jpg) no-repeat no-repeat -143px -280px;
+				background-color: #00FFFF;
+			}
+			
 		</style>
 		<title>
-			
+			hello
 		</title>
 	</head>
 	<body>
-		<div class="ms">静夜思</div>
+		<img id="photo" src="images/teriyaki.jpg" windth="100" height="100">
+		<div class="ms">静夜思<sub>李白</sub></div>
+			<h2 class='box'>
+				<p class='one whiteground'>
+					窗前明月光
+				</p>
+				<p class='two whiteground'>
+					疑是地上霜
+				</p>
+				<p class='three whiteground'>
+					举头望明月
+				</p>
+				<p class='four whiteground'>
+					低头思故乡
+				</p>
+			</h2>
+			<h3 class='ms'>hello</h3>
 	</body>
 </html>
