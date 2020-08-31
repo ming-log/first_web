@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9817d71b-ae5c-4a1a-8b3b-d555b57bb16b" name="Default Changelist" comment="css" />
+    <list default="true" id="9817d71b-ae5c-4a1a-8b3b-d555b57bb16b" name="Default Changelist" comment="css">
+      <change afterPath="$PROJECT_DIR$/audio/我爱你不问归期.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/practice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_practice.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,16 +37,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gOZcMQ2oV46Y8khBaqlrc587iE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web 标签" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,6 +72,8 @@
       <workItem from="1598505540816" duration="3943000" />
       <workItem from="1598521208854" duration="119000" />
       <workItem from="1598597555184" duration="78000" />
+      <workItem from="1598606528853" duration="104000" />
+      <workItem from="1598856556108" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1598505583438</created>
@@ -90,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598597587338</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="css">
+      <created>1598606613034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598606613034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +129,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="css" />
     <option name="LAST_COMMIT_MESSAGE" value="css" />
   </component>
@@ -141,9 +162,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1597987929609" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598597590875">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598606615720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598597590875" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598606615720" />
+    <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598856581242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1598856581242" />
   </component>
 </project>
