@@ -43,10 +43,10 @@ h1 {
 	font-size: 32px;
 }
 .normal {
-	18px
+	width:18px;
 }
 .small {
-	10px
+	width:10px;
 }
 /* id选择器  #+id  唯一标识符，只能一个用*/
 /*   相同渲染效果用，隔开   */
