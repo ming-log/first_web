@@ -49,7 +49,7 @@
 			</h3>
 		</div>
 		
-		<div class="ad">
+		<div class="ad" id='adv'>
 			广告区域
 			<button type="button" id = "close">close</button>
 		</div>
@@ -109,5 +109,19 @@
 				</a>
 		</p>
 		<a name="bottom"></a>
+		<script type="text/javascript">
+			// 关闭广告
+			
+			// # var定义变量
+			var btn = document.getElementById('close')
+			// 添加事件监听器
+			btn.addEventListener('click', function(){
+				var ad = document.getElementById("adv")
+				ad.style.display = 'none'
+			})
+			// 匿名函数,类似于Python中的lambda函数
+			// function (){
+			// }
+		</script>
 	</body>
 </html>
