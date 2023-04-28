@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9817d71b-ae5c-4a1a-8b3b-d555b57bb16b" name="Default Changelist" comment="my_blog" />
+    <list default="true" id="9817d71b-ae5c-4a1a-8b3b-d555b57bb16b" name="Default Changelist" comment="my_blog">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_example3.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_example3.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,19 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/学习笔记/Git/first_web",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="css_example3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/first_web/css_example3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.css_example3.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,6 +77,12 @@
       <workItem from="1598597555184" duration="78000" />
       <workItem from="1598606528853" duration="104000" />
       <workItem from="1598856556108" duration="129000" />
+      <workItem from="1660556988866" duration="252000" />
+      <workItem from="1660614059648" duration="1527000" />
+      <workItem from="1660622787509" duration="213000" />
+      <workItem from="1660641679707" duration="3493000" />
+      <workItem from="1661491720803" duration="3000" />
+      <workItem from="1682675397206" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <created>1598505583438</created>
@@ -125,50 +142,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="css" />
     <MESSAGE value="my_blog" />
     <option name="LAST_COMMIT_MESSAGE" value="my_blog" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="417" y="187" key="#Notifications" timestamp="1598519177494">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="417" y="187" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1598519177494" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598432960476">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598432960476" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598597629132">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598597629132" />
-    <state x="555" y="261" key="Github.ShareDialog" timestamp="1598432724446">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="555" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598432724446" />
-    <state x="0" y="0" key="Github.UntrackedFilesDialog" timestamp="1598432736339">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598432736339" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1598521312398">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598521312398" />
-    <state width="498" height="398" key="SwitcherDM" timestamp="1597987929609">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="498" height="398" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1597987929609" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598856613026">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598856613026" />
-    <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598856581242">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1598856581242" />
   </component>
 </project>
